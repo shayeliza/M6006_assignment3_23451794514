@@ -2,4 +2,5 @@ pandas
 numpy
 matplotlib.pyplot
 seaborn
+word2number
 scipy
