@@ -112,7 +112,10 @@ y = pd.Categorical(john_model["y_cat"], ordered=True, categories=categories)
 model = OrderedModel(y, X, distr="logit")
 res = model.fit(method="bfgs", disp=0)
 
-# NOW THE SHINY APP
+
+
+# NOW THE SHINY APP!!!!
+
 X_columns = list(X.columns)
 year_mean = john_model["session_year"].mean()
 
